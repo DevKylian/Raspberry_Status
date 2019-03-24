@@ -1,7 +1,6 @@
 # 🍇 Raspberry Status
 
-> Welcome to my Github!
-  Welcome to my Github! You will find on this directory, An optimized dashboard, allowing you to see very quickly, the main information of your Raspberry Pi !
+> Welcome to my Github! You will find on this directory, An optimized dashboard, allowing you to see very quickly, the main information of your Raspberry Pi !
   Also view the status of the services you want, as well as the performance of it !
 
 > For the moment, only the design is available!
