@@ -9,7 +9,7 @@
 
 ### 🔍 Show App
 
-![Recordit GIF](assets/images/app.png)
+![Recordit PNG](assets/images/app.png)
 
 ### 🛠️ Installation
 
