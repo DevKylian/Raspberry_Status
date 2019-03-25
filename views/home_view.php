@@ -8,14 +8,17 @@
 
 <?php include_once 'views/includes/header.php' ?>
 
-<div class="rasp-container pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center black animate-zoom">
+<div class="rasp-container-heading pricing-header px-3 py-3 three-rem pb-md-1 mx-auto text-center black animate-zoom">
     <h1 class="display-4">Raspberry Status</h1>
     <p class="co-lead">An optimized dashboard, allowing you to see very quickly, the main information of your Raspberry Pi !</br>
         Also view the status of the services you want, as well as the performance of it !</p>
-
-    <h4 class="display-5">Why Register ?</h4>
-    <p class="co-lead">You will find on the dashboard, all the explanations necessary for the installation of your own Raspberry Status !<br/>
-        You can also get help with a messaging support system !</p>
+</div>
+<div class="rasp-alert pricing-header px-3 py-3 pb-md-4 mx-auto text-center black animate-zoom">
+    <div class="alert alert-danger-outline">
+        <h4 class="alert-heading display-5">Why Register ?</h4>
+        <p class="mb-0">You will find on the dashboard, all the explanations necessary for the installation of your own Raspberry Status !<br/>
+            You can also get help with a messaging support system !</p>
+    </div >
 </div>
 
 <div class="container black">
