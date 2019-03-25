@@ -16,6 +16,10 @@
     color: #e51c23;
 }
 
+.yellow{
+    color: #000000;
+}
+
 /* Links */
 a,
 a:focus,
@@ -36,6 +40,11 @@ body {
 body {
     color: #fff;
 }
+
+.one-rem{padding-top: 1rem !important;}
+.two-rem{padding-top: 2rem !important;}
+.three-rem{padding-top: 3rem !important;}
+.four-rem{padding-top: 4rem !important;}
 
 /*
  * Header
@@ -103,8 +112,12 @@ body {
     padding: 0 1.5rem;
 }
 
-.rasp-container {
+.rasp-container-heading {
     max-width: 42em;
+}
+
+.rasp-alert {
+    max-width: 87.8em;
 }
 
 /*
@@ -145,3 +158,23 @@ body {
 .animate-input{transition:width 0.4s ease-in-out}.animate-input:focus{width:100%!important}
 .opacity,.hover-opacity:hover{opacity:0.60}.opacity-off,.hover-opacity-off:hover{opacity:1}
 .opacity-max{opacity:0.25}.opacity-min{opacity:0.75}
+
+/*
+ * Alerts
+ */
+
+.alert-danger-outline {
+    color: black;
+    background: transparent;
+    border: 0.05rem solid black;
+    transition:.4s;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.alert-danger-outline:hover {
+    color: white;
+    background: #e51c23;
+    border: 0.05rem solid white;
+    transition:.4s;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
+}
