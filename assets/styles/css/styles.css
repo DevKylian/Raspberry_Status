@@ -16,8 +16,12 @@
     color: #e51c23;
 }
 
+.green{
+    color: #4CAF50;
+}
+
 .yellow{
-    color: #000000;
+    color: #ffd41a;
 }
 
 /* Links */
@@ -26,6 +30,14 @@ a:focus,
 a:hover {
     color: #fff;
 }
+
+/*
+ * Font Size
+ */
+
+/*.table-font-size {*/
+    /*font-size: 1.2rem;*/
+/*}*/
 
 /*
  * Base structure
@@ -41,10 +53,18 @@ body {
     color: #fff;
 }
 
+.marge {
+    margin-right: 5px;
+}
+
 .one-rem{padding-top: 1rem !important;}
 .two-rem{padding-top: 2rem !important;}
 .three-rem{padding-top: 3rem !important;}
 .four-rem{padding-top: 4rem !important;}
+
+.center{
+    text-align: center;
+}
 
 /*
  * Header
@@ -120,6 +140,18 @@ body {
     max-width: 87.8em;
 }
 
+.rasp-card {
+    max-width: 40rem;
+}
+
+.rasp-table {
+    max-width: 90rem;
+}
+
+.rasp-small-alert {
+    max-width: 40rem;
+}
+
 /*
  * Footer
  */
@@ -177,4 +209,27 @@ body {
     border: 0.05rem solid white;
     transition:.4s;
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+/*
+ * Tables
+ */
+
+.table-dark-nohover,
+.table-dark-nohover > th,
+.table-dark-nohover > td {
+    color: white;
+    background-color: #222;
+}
+
+.table-dark-nohover th,
+.table-dark-nohover td,
+.table-dark-nohover thead th,
+.table-dark-nohover tbody + tbody {
+    color: white;
+    border-color: #222;
+}
+
+.icon-left {
+    text-align: left;
 }

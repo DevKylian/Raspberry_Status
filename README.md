@@ -9,7 +9,17 @@
 
 ### 🔍 Show App
 
-![PNG](assets/images/app.png)
+- Home
+
+![PNG](assets/images/app_home.png)
+
+- Dashboard
+
+![PNG](assets/images/app_dashboard.png)
+
+- Register
+
+![PNG](assets/images/app_register.png)
 
 ### 🛠️ Installation
 

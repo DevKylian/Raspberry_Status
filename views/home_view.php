@@ -13,7 +13,7 @@
     <p class="co-lead">An optimized dashboard, allowing you to see very quickly, the main information of your Raspberry Pi !</br>
         Also view the status of the services you want, as well as the performance of it !</p>
 </div>
-<div class="rasp-alert pricing-header px-3 py-3 pb-md-4 mx-auto text-center black animate-zoom">
+<div class="rasp-alert px-3 py-3 pb-md-4 mx-auto text-center black animate-zoom">
     <div class="alert alert-danger-outline">
         <h4 class="alert-heading display-5">Why Register ?</h4>
         <p class="mb-0">You will find on the dashboard, all the explanations necessary for the installation of your own Raspberry Status !<br/>
@@ -69,6 +69,3 @@
 include_once 'views/includes/footer.php';
 include_once 'views/includes/scripts.php';
 ?>
-
-</body>
-</html>

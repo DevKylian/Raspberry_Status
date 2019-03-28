@@ -55,6 +55,3 @@
 include_once 'views/includes/footer.php';
 include_once 'views/includes/scripts.php';
 ?>
-
-</body>
-</html>

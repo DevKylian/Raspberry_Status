@@ -1738,7 +1738,6 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-    color: #444;
     background-color: rgba(0, 0, 0, 0.075);
 }
 
@@ -1884,38 +1883,36 @@ pre code {
 .table-light td,
 .table-light thead th,
 .table-light tbody + tbody {
-    border-color: white;
 }
 
 .table-hover .table-light:hover {
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
 }
 
 .table-hover .table-light:hover > td,
 .table-hover .table-light:hover > th {
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
 }
 
 .table-dark,
 .table-dark > th,
 .table-dark > td {
-    background-color: #c1c1c1;
+    background-color: #dddddd;
 }
 
 .table-dark th,
 .table-dark td,
 .table-dark thead th,
 .table-dark tbody + tbody {
-    border-color: #8c8c8c;
 }
 
 .table-hover .table-dark:hover {
-    background-color: #b4b4b4;
+    background-color: #d6d6d6;
 }
 
 .table-hover .table-dark:hover > td,
 .table-hover .table-dark:hover > th {
-    background-color: #b4b4b4;
+    background-color: #D6D6D6;
 }
 
 .table-active,
@@ -1946,14 +1943,13 @@ pre code {
 }
 
 .table-dark {
-    color: #fff;
     background-color: #222;
 }
 
 .table-dark th,
 .table-dark td,
 .table-dark thead th {
-    border-color: #353535;
+    border-color: transparent;
 }
 
 .table-dark.table-bordered {
@@ -5503,6 +5499,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     padding: 0.75rem 1.25rem;
     margin-bottom: 1rem;
     border: 1px solid transparent;
+    text-align: center;
 }
 
 .alert-heading {
